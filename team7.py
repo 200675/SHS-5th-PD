@@ -8,7 +8,11 @@
 
 team_name = 'Seven' # Only 10 chars displayed.
 strategy_name = 'Betray until punished'
+<<<<<<< HEAD
 strategy_description = 'Betray unless severely punished in the last 5 rounds, otherwise betray'
+=======
+strategy_description = 'Always betray unless first round, severely punished last 5 rounds, or they successfully colluded last round'
+>>>>>>> 332cadc1e3d8a5e4f13256af7cc577e60a0a4c0a
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
